@@ -1,0 +1,1104 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@font-face{
+	src:url(../font/TrajanPro-Regular.otf);
+	font-family: TrajanPro-Regular;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 100%;
+    height: 792px;
+    background-color: black;
+	background-image: url(../img/BGP.png);
+	background-image: url(../img/BG.png);
+	background-size: cover;
+	background-position: center center;
+		
+	
+}
+.space1{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+#logo{
+    width: 50%;
+    height: 190px;
+/*    background-color: yellow;*/
+    margin: 0 auto;
+	margin-top: -3%;
+}
+#logo  img{
+	width: 55%;
+	margin-left: 23%;
+	margin-top: -3%;
+	
+}
+#text{
+    width: 85%;
+    height: 34px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+/*	background-color: blue;*/
+	padding: 0px 15px;
+}
+#text p{
+	font-size: 25px;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	margin : 0px 0px 10px;
+}
+#purchase{
+	width: 100%;
+	height: 230px;
+	background-color: black;
+	margin: 0 auto;
+	display: flex;
+}
+#khungpurchase{
+	width : 13%;
+	height: 75px;
+	background-color: #393E45;
+	border: 1px solid #393E45;
+	margin: auto;
+	margin-top: 6.5%;
+	
+}
+#textpurchase{
+	width: 50%;
+	height: 50px;
+/*	background-color: aqua;*/
+	margin: auto;
+	
+	
+	
+}
+#khungpurchase:hover{
+	border: 3px solid #393E45;
+	background-color: rgba(0,0,0,0.00);
+/*	border: 0px solid #3874D9;*/
+	color: white;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+#textpurchase a p{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	
+	margin: 0 auto;
+	margin-top: 18%;
+	
+	
+}
+.space0{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+	float:left;
+}
+#khungbody{
+    width: 100%;
+    height: 2005px;
+    background-color: black;
+}
+#text2{
+    width: 85%;
+    height: 58px;
+
+    margin: 0 auto;
+	padding: 0px 15px;
+	margin-top: -10px;
+	margin-bottom: 5.5%;
+	
+   
+}
+#text2 p{
+	font-family: TrajanPro-Regular;
+	 font-size: 42px;
+	margin : 0px 0px 10px;
+	text-align:center;
+	
+	
+}
+.space7{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+#hinh1{
+	width: 43%;
+	height: 385px;
+/*	background-color: #A53684;*/
+	margin-left: 7%;
+	float:left;
+	
+
+}
+#changeimg1{
+	width: 95%;
+	height: 335px;
+	background-color: #5C0C4F;
+	margin: 0 auto;
+}
+#text01{
+	width: 43.4%;
+	height: 170px;
+/*	background-color: #7FC4E7;*/
+	margin-left:50%
+	
+}
+#changeimg2 {
+	width: 100%;
+	height: 120px;
+	background-color: #1C608E;
+	margin : 0 auto;
+}
+.space2{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+	float:left;
+}
+#box01{
+	Width :85%;
+	Height: 340px;
+/*	Background-color: yellow;*/
+	margin: 0 auto;
+	background-image: url(../img/WL1-01.png);
+	background-size: cover;
+	background-position: center center;
+}
+#box01 #minibox1{
+	Width: 47.5%;
+	Height: 335px;
+/*	Background-color: orange;*/
+	Float:left;
+	padding: 0px 15px;
+}
+#minibox1 #minbox1{
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+#box01 #minibox2{
+/*
+	Width: 47.5%;
+	Height: 170px;
+	Background-color: orange;
+	Float:right;
+	padding: 0px 15px;
+	
+*/
+	Width: 47.5%;
+	Height: 335px;
+/*	Background-color: orange;*/
+	Float:right;
+	padding: 0px 15px;
+}
+/*
+#minibox2 #minbox2{
+	Width: 100%;
+	Height: 170px;
+	Background-color: yellow;
+	margin: 0 auto;
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+*/
+/*
+#box02{
+	Width: 85%;
+	Height: 335px;
+	Background-color: purple;
+	margin: 0 auto;
+}
+*/
+#box02{
+	Width :85%;
+	Height: 335px;
+/*	Background-color: yellow;*/
+	
+	background-image: url(../img/WL3-01.png);
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+	margin-top: 1.7%;
+}
+#box02 #minibox3{
+	Width: 47.5%;
+	Height: 195px;
+/*	Background-color:blue;*/
+	Float:left;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+#minibox3 #minbox3{
+/*
+	Width: 100%;
+	Height: 195px;
+	Background-color: yellow;
+	margin: 0 auto;
+*/
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+#box02 #minibox4{
+	Width: 47.5%;
+	Height: 335px;
+/*	Background-color: red;*/
+	Float: right;
+	padding: 0px 15px;
+}
+#minibox4 #minbox4{
+/*
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+*/
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+/*
+#box03{
+	Width: 87%;
+	Height: 335px;
+
+	margin: 0 auto;
+}
+*/
+#box03{
+	Width :85%;
+	Height: 335px;
+/*	Background-color: yellow;*/
+	
+	background-image: url(../img/WL2-01.png);
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+	margin-top: 1.7%;
+}
+#box03 #minibox5{
+	Width: 47.5%;
+	Height: 335px;
+/*	Background-color: red;*/
+	Float: left;
+	padding: 0px 15px;
+}
+#minibox5 #minbox5{
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+#box03 #minibox6{
+	Width: 47.5%;
+	Height: 195px;
+/*	Background-color:blue;*/
+	Float:right;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+#minibox6 #minbox6{
+/*
+	Width: 100%;
+	Height: 195px;
+	Background-color: yellow;
+	margin : 0 auto;
+*/
+	Width: 100%;
+	Height: 335px;
+	Background-color: yellow;
+	margin: 0 auto;
+}
+#text3{
+    width: 85%;
+    height: 58px;
+
+    margin: 0 auto;
+	padding: 0px 15px;
+   
+}
+#text3 p{
+	font-family: TrajanPro-Regular;
+	 font-size: 42px;
+	margin : 0px 0px 10px;
+	text-align:center;
+}
+
+#youtube{
+	Width: 85%;
+	Height: 558px;
+/*	Background-color: azure;*/
+/*	float: left;*/
+	margin: 0 auto;
+/*	margin-top: 92px;*/
+	padding : 0px 15px;
+
+}
+#youtube #linkyoutube{
+	Width: 100%;
+	Height:  558px;
+/*	Background-color : yellow;*/
+	Margin : 0 auto;
+}
+#linkyoutube iframe{
+	width: 100%;
+	height: 558px;
+}
+.space3{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+/*	float: left;*/
+}
+#khungbody2{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+#headtextlogo{
+	Width: 85%;
+	Height : 58px;
+	background-color: black;
+	Margin : 0 auto;
+	padding : 0px 15px;
+}
+#headtextlogo p{
+	font-family: TrajanPro-Regular;
+	text-align: center;
+	font-size: 42px;
+}
+#khungbody2 p{
+/*	font-size: 48px;*/
+	text-align: center;
+	color: white;
+}
+#khunglogo1{
+	width : 87%;
+	height: 170px;
+/*	background-color: blue;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 33.3%;
+	height : 162px;
+/*	background-color: brown;*/
+	float: left;
+	
+}
+.logo img{
+	margin: 0 auto;
+	padding : 0 15px;
+}
+#khunglogo2{
+	width : 87%;
+	height: 170px;
+/*	background-color: blue;*/
+	margin: 0 auto;
+}
+#khungbody3{
+	width: 100%;
+	height: 795px;
+	background-color: black;
+	display: flex;
+}
+#khungbu{
+	width: 94%;
+	height: 495px;
+/*	background-color: khaki;*/
+	margin: auto;
+	
+/*	float: left;*/
+	
+}
+#chu{
+	width: 85%;
+	height: 58px;
+/*	background-color: orange;*/
+	margin: 0 auto;
+	padding: 0px 15px;
+	
+}
+#chu p{
+	font-family: TrajanPro-Regular;
+	font-size: 42px;
+	text-align: center;
+	color: white;
+	margin: 0px 0px 10px;
+/*	margin: auto;*/
+}
+.trangbi{
+	width: 90%;
+/*	height: 370px;*/
+/*	background-color: red;*/
+	margin: auto;
+/*	float:left;*/
+}
+.trangbinho{
+	width:25%;
+	height: 365px;
+/*	background-color: #C7B11F;*/
+	float: left;
+}
+.texttrangbi{
+	width: 90%;
+	height: 34px;
+	padding: 0px 15px;
+/*	background-color: purple;*/
+}
+.texttrangbi p{
+	font-family: 'Crimson Text', serif;
+	font-size: 21px;
+	text-align:center;
+	color: white;
+	margin: 0px 0px 10px;
+}
+.hinhtrangbi{
+	width: 100%;
+	height: 261px;
+/*	background-color: yellow;*/
+}
+.imgg{
+	width: 90%;
+	height: 261px;
+/*	background-color: red;*/
+	padding: 0px 15px;
+	margin: 0 auto;
+	
+}
+.imgg img{
+	width: 100%;
+	height: 250px;
+	margin-left: 1%;
+	
+	
+
+}
+#visittext{
+	width: 85%;
+	height: 39.6px;
+/*	background-color: orange;*/
+	margin: 0 auto;
+	padding: 0px 15px;
+	
+}
+#visittext p{
+	font-family: TrajanPro-Regular;
+	color: white;
+	text-align: center;
+	font-size: 42px;
+	margin: 0px 0px 10px;
+	
+}
+#khungbao{
+	width: 87%;
+	height: 257px;
+/*	background-color:#701416;*/
+	margin: 0 auto;
+}
+.div1{
+	width: 33.3%;
+	height: 257px;
+/*	background-color: crimson;*/
+	float: left;
+	
+}
+.logof1{
+	width: 93%;
+	height: 165px;
+/*	background-color: chartreuse;*/
+	padding: 0px 15px;
+}
+.logof1 img{
+	width: 92.7%;
+	height: 164.93px;
+}
+.gt{
+	width: 100%;
+	height: 24px;
+/*	background-color: green;*/
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.gt p{
+	font-family: 'Crimson Text', serif;
+	text-align:center;
+	color: white;
+	font-size: 18px;
+}
+.div1 button{
+	width:62%;
+	height: 54px;
+	border-radius: 100px;
+	border-color: rgba(0,0,0,0.00);
+	background-color: white;
+	padding: 18px 35px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 18%;
+}
+.div1 button p{
+	font-family: 'Crimson Text', serif;
+	font-size: 14px;
+	text-align: center;
+	
+	margin: 0 auto;
+	margin-top: -2%;
+/*	transition-duration: 0.6s;*/
+}
+.div1 button:hover{
+	background-color:#393E45;
+/*	border: white;*/
+	color: white;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+.div1 button p:hover{
+	display: block;
+}
+
+.contenttrangbi{
+	width: 90%;
+	height: 72px;
+/*	background-color: gold;*/
+	padding: 0px 15px;
+}
+.contenttrangbi p{
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
+	text-align:center;
+	color:white;
+}
+#khungbody4{
+	width: 100%;
+	height: 526px;
+	background-color: black;
+}
+#boxbody4{
+	width: 87%;
+	height: 526px;
+/*	background-color: goldenrod;*/
+	margin: 0 auto;
+}
+#textchu4{
+	width: 50%;
+	height: 138px;
+/*	background-color: #4582E1;*/
+	float: left;
+}
+#headne{
+	width: 95%;
+	height: 40px;
+	padding: 0px 15px;
+}
+#headne p{
+	font-family: TrajanPro-Regular;
+	text-align: left;
+	color: white;
+	font-size: 26px;
+	margin: 0px 0px 10px;
+}
+.space7{
+	width: 100%;
+	height: 10px;
+	float: left;
+}
+.space6{
+	width: 100%;
+	height: 20px;
+}
+#textnho{
+	width: 95%;
+	height: 48px;
+	padding: 0px 15px;
+/*	background-color: pink;*/
+	padding: 0px 15px;
+}
+#textnho p{
+	font-family: 'Crimson Text', serif;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+#hinh4{
+	width:47%;
+	height: 249px;
+/*	background-color: #B258D9;*/
+	float: right;
+	padding: 0px 15px;
+	
+	
+}
+#hinh4 img{
+	width: 100%;
+	height: 100%;
+}
+
+#khungbody5{
+	width: 100%;
+	height: 217px;
+	background-color: black;
+}
+#khungbody6{
+	width: 100%;
+	height: 297px;
+	background-color: black;
+}
+#presskit{
+	width: 100%;
+	height: 471px;
+	background-color: black;
+}
+#textpresskit{
+	width: 87%;
+	height: 40px;
+/*	background-color: white;*/
+/*	float: left;*/
+	margin: 0 auto;
+	margin-bottom : 14px;
+	margin-left: 5.5%;
+}
+.space4{
+	width: 100%;
+	height: 30px;
+	
+}
+#textpresskit p{
+	font-family: TrajanPro-Regular;
+	font-size: 48px;
+	text-align: center;
+	
+}
+#hinhpresskit{
+	width: 87%;
+	height: 205px;
+/*	background-color: cadetblue;*/
+	margin : auto;
+}
+#hinhchinh{
+	width: 39%;
+	height: 197px;
+/*	background-color: burlywood;*/
+	margin: 0 auto;
+}
+#textphu{
+	width: 45%;
+	height: 48px;
+/*	background-color: chartreuse;*/
+	margin: 0 auto;
+	padding: 5px 15px;
+}
+#textphu p{
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+	text-align: center;
+}
+.space4{
+	width: 100%;
+	height: 20px;
+}
+#bottomvisit{
+	width: 87%;
+	height: 48px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+}
+/*
+#bottom{
+	width: 22%;
+	height: 48px;
+	margin: 0 auto;
+	padding : 18px 35px; 
+	
+}
+*/
+/*
+#bottomvisit button{
+	width: 22%;
+	height:48px;
+	bakcground-color: blue;
+	margin: 0 auto;
+	padding : 18px 35px;
+}
+*/
+#bottomvisit button{
+	
+	
+	width: 18%;
+	height: 48px;
+	border-radius: none;
+	border: none;
+	background-color: rgba(0,0,0,0.02);
+	border-color: rgba(0,0,0,0.02);
+	color: white;
+	
+	margin-left: 513.54px;
+}
+#bottomvisit button p{
+	font-family: 'Crimson Text', serif;
+	font-size: 14px;
+	text-align: center;
+	margin-top : 1%;
+}
+#bottomvisit button:hover{
+	background-color: #393E45;
+	color: white;
+	border-radius: 100px;
+	border-color: #393E45;
+	transition-duration: 0.6s;
+	cursor: pointer;
+/*	transform: scale(1.1);*/
+}
+#khungbody7{
+	width: 100%;
+	height: 604px;
+/*	background-color: yellow;*/
+	background-image: url(../img/BGD.png);
+	background-size: cover;
+	background-position: center center;
+	float: left;
+}
+#text001{
+	width: 100%;
+	height: 304px;
+/*	background-color: green;*/
+	margin-top: 150px;
+	
+}
+#HLK{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+#HLK p{
+	font-family: TrajanPro-Regular;
+	text-align: center;
+}
+#unity{
+	width: 100%;
+	height: 132px;
+/*	background-color: crimson;*/
+	margin : 0 auto;
+}
+#mainhinh{
+	width: 38%;
+	height: 132px;
+	margin: 0 auto;
+/*	background-color: darkgoldenrod;*/
+}
+#HLK1{
+	width: 87%;
+	height: 24px;
+	font-size: 18px;
+	margin : 0 auto;
+}
+#HLK1 p{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+.space5{
+	width: 100%;
+	height: 40px;
+}
+#boxdetails{
+	width: 85%;
+	height: 48px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+#khung{
+	width: 10.8%;
+	height:48px;
+/*	background-color: black;*/
+	margin: 0 auto;
+	padding: 18px 35px;
+}
+#khung button{
+	width: 101%;
+	border-radius: none;
+	border: none;
+	background-color: #393E45;
+	color: white;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 15px 35px;
+	
+/*	margin: 0 auto;*/
+/*	padding: 18px 35px;*/
+/*	margin-left: 481.25px;*/
+	
+}
+#khung button p{
+	font-family: 'Crimson Text', serif;
+	font-size: 14px;
+	text-align: center;
+}
+#khung button:hover{
+	background-color: #454B54;
+	color: white;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+#khungbody8{
+	width: 100%;
+	height: 359px;
+	background-color: black;
+	float:left;
+	display: flex;
+}
+#question{
+	margin: auto;
+	width: 87%;
+	height: 59px;
+/*	background-color: aliceblue;*/
+	text-align: center;
+	margin: auto;
+	
+}
+#textquest{
+	width: 97%;
+	height: 34px;
+/*	background-color: indianred;*/
+	color:white;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+#textquest p{
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
+	margin: 0px 0px 10px;
+	text-align: center;
+}
+#talk{
+
+	width: 97%;
+	height: 24px;
+	color: white;
+/*	background-color: yellowgreen;*/
+	padding: 0px 15px;
+}
+#talk p{
+	font-family: 'Crimson Text', serif;
+	font-size: 14px;
+	text-align: center;
+}
+#talk:hover{
+	color: #e6b9c8;
+	transition-duration: 0.6s;
+}
+#khungbody9{
+	width: 100%;
+	height:810px;
+	background-color: #2A2220;
+	margin: 0 auto;
+	float: left;
+}
+#logoteam{
+	width: 87%;
+	height: 340px;
+/*	background-color: lightcoral;*/
+	margin : 0 auto;
+}
+/*
+#hinhlogo{
+	width: 36%;
+	height: 361px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+*/
+#khunglogo{
+	width: 100%;
+	height: 180px;
+/*	background-color: #74DAF9;*/
+	margin: 0 auto;
+	margin-top: 5%;
+	
+	
+}
+#textlogo{
+	width: 58%;
+	height: 190px;
+	margin: 0 auto;
+/*	background-color: darkviolet;*/
+	
+}
+#textlogo p{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-size: 25px;
+
+}
+#baomem{
+	width: 87%;
+	height: 350px;
+/*	background-color: pink;*/
+	margin: 0 auto;
+}
+.avatar{
+	width: 25%;
+	height: 326px;
+/*	background-color: blue;*/
+	float: left;
+/*	margin-top: 10%;*/
+}
+.member{
+	width: 100%;
+	height: 198px;
+/*	background-color: yellow;*/
+	margin: 0 auto;
+}
+.member img{
+	width: 63.2%;
+	height:198px;
+	margin-left: 18.4%;
+}
+.name{
+	width: 91%;
+	height: 30px;
+/*	background-color: chocolate;*/
+	text-align: center;
+	color:white;
+	
+	padding: 0px 15px;
+}
+.name p{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 0 10px;
+}
+.gioithieu{
+	width: 91%;
+	height: 70px;
+/*	background-color: lightseagreen;*/
+	text-align: left;
+	padding: 0px 15px;
+	color:white;
+}
+.gioithieu p{
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+	text-align: left;
+}
+
+#khungbody10{
+	width : 100%;
+	height: 220px;
+	background-color: #2A2220;
+	float: left;
+	display: flex;
+	
+}
+#social{
+	width: 87%;
+	height: 83.8px;
+/*	background-color: darkviolet;*/
+	margin: auto; 
+}
+#logosocial{
+	width: 14%;
+	height: 44.8px;
+/*	background-color: darkorange;*/
+	margin: 0 auto;
+}
+.mxh{
+	width: 15%;
+	height: 45px;
+/*	background-color: lime;*/
+	margin: 0px -3px 15px;
+	float: left;
+	margin-left: 42.55%;
+}
+.mainsocial{
+	width: 33.3%;
+	height: 37px;
+	background-color: rgba(0,0,0,0.00);
+	float: left;
+}
+.mainsocial img{
+/*	width:%;*/
+	height: 17px;
+	margin-left: 40.7%;
+	margin-top: 8.186px;
+	
+}
+.mainsocial:hover{
+	background-color: #3B5A99;
+	cursor: pointer;
+}
+
+
+.mainsocial1{
+	width: 33.3%;
+	height: 37px;
+	background-color: rgba(0,0,0,0.00);
+	float: left;
+}
+.mainsocial1 img{
+/*	width: %;*/
+	height: 17px;
+	margin-left: 31.7%;
+	margin-top: 9.193px;
+	
+}
+.mainsocial1:hover{
+	background-color: #3B8ACA;
+	cursor: pointer;
+}
+
+
+.mainsocial2{
+	width: 33.3%;
+	height: 37px;
+	background-color: rgba(0,0,0,0.00);
+	float: left;
+}
+.mainsocial2 img{
+/*	width:18.7%;*/
+	height: 17px;
+	margin-left: 36%;
+	margin-top: 10.417px;
+	
+}
+.mainsocial2:hover{
+	background-color: #CB2027;
+	cursor: pointer;
+}
+#copyright{
+	width: 100%;
+	height: 24px;
+/*	background-color: blue;*/
+	margin: 0 auto; 
+	float: left;
+}
+#copyright p{
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+	text-align: center;
+}
+.member img{
+	width: 63.2%;
+	height:198px;
+	margin-left: 18.4%;
+}
+/*------------SIGN UP --------------*/
